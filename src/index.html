@@ -29,10 +29,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
     <link rel="manifest" href="./favicons/site.webmanifest">
     <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#21bf73">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <title>Attestation de déplacement dérogatoire</title>
+    <title>Attestation numérique</title>
 </head>
 
 <body>
@@ -84,12 +82,12 @@
             </div>
 
             <p class="text-center mt-1">
-                <button type="button" id="cleardata" class="btn  btn-outline-danger  btn-clear-data">
+                <button type="button" id="cleardata" class="btn  btn-outline-danger  btn-clear-data mt-4">
                     <span>
                         <img src="./images/poubelle.svg" style="width: 25px; margin-bottom: 7px; margin-right: 5px;"
                             alt="Image poubelle">
                         Effacer le formulaire et son
-                        contenu sauvegardé sur mon téléphone
+                        contenu sauvegardé sur mon appareil
                     </span>
                 </button>
             </p>
@@ -138,6 +136,11 @@
     </div>
 
     <script src="./js/main.js"></script>
+    <script>
+        const date = new Date();
+        const test = date.getHours() + ':' + date.getMinutes();
+        document.querySelector('input#field-heuresortie').value = test;
+    </script>
 </body>
 
 </html>

@@ -147,7 +147,7 @@ export function prepareInputs (formInputs, reasonInputs, reasonFieldset, reasonA
       input.addEventListener('input', (event) => {
         if (input.value) {
           updateSecureLS(formInputs)
-          exempleElt.innerHTML = 'ex.&nbsp;: ' + input.placeholder
+          // exempleElt.innerHTML = 'ex.&nbsp;: ' + input.placeholder
         } else {
           exempleElt.innerHTML = ''
         }

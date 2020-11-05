@@ -7,8 +7,8 @@ import formData from '../form-data.json'
 import { $, appendTo, createElement } from './dom-utils'
 
 const createTitle = () => {
-  const h2 = createElement('h2', { className: 'titre-2', innerHTML: 'Remplissez en ligne votre déclaration numérique : ' })
-  const p = createElement('p', { className: 'msg-info', innerHTML: 'Tous les champs sont obligatoires.' })
+  const h2 = createElement('h3', { className: 'text-primary', innerHTML: 'Attestation de sortie numérique : ' })
+  const p = createElement('p', { className: 'text-danger', innerHTML: 'Tous les champs sont obligatoires.' })
   return [h2, p]
 }
 // createElement('div', { className: 'form-group' })
@@ -81,8 +81,8 @@ const createReasonField = (reasonData) => {
 
   const id = `checkbox-${reasonData.code}`
   const inputReasonAttrs = {
-    className: 'form-check-input',
-    type: 'checkbox',
+    className: 'form-check-input mt-2',
+    type: 'radio',
     id,
     name: 'field-reason',
     value: reasonData.code,
