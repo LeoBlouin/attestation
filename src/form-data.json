@@ -103,39 +103,39 @@
       "items": [
         {
           "code": "travail",
-          "label": "Déplacements entre le domicile et le lieu d’exercice de l’activité professionnelle ou un établissement d’enseignement ou de formation, déplacements professionnels ne pouvant être différés <a class=\"footnote\" href=\"#footnote2\">[2]</a> , déplacements pour un concours ou un examen."
+          "label": "Travail <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./travail.d2619be6.svg\" alt\"Logo travail\">"
         },
         {
           "code": "achats",
-          "label": "Déplacements pour effectuer des achats de fournitures nécessaires à l'activité professionnelle, des achats de première nécessité <a class=\"footnote\" href=\"#footnote3\">[3]</a> dans des établissements dont les activités demeurent autorisées, le retrait de commande et les livraisons à domicile ;"
+          "label": "Achats / Courses <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./courses.019d67ef.svg\" alt\"Logo achats\">"
         },
         {
           "code": "sante",
-          "label": "Consultations, examens et soins ne pouvant être assurés à distance et l’achat de médicaments ;"
+          "label": "Santé <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./sante.f2ed5426.svg\" alt\"Logo santé\">"
         },
         {
           "code": "famille",
-          "label": " Déplacements pour motif familial impérieux, pour l'assistance aux personnes vulnérables et précaires ou la garde d'enfants ;"
+          "label": "Motif familial <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./famille.99f777c9.svg\" alt\"Logo famille\">"
         },
         {
           "code": "handicap",
-          "label": "Déplacement des personnes en situation de handicap et leur accompagnant ;"
+          "label": "Déplacement personne handicapée <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./handicap.39330b07.svg\" alt\"Logo handicap\">"
         },
         {
           "code": "sport_animaux",
-          "label": "Déplacements brefs, dans la limite d'une heure quotidienne et dans un rayon maximal d'un kilomètre autour du domicile, liés soit à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective et de toute proximité avec d'autres personnes, soit à la promenade avec les seules personnes regroupées dans un même domicile, soit aux besoins des animaux de compagnie ;"
+          "label": "Sport / Animaux <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./sport.d781d4f8.svg\" alt\"Logo sport\">"
         },
         {
           "code": "convocation",
-          "label": " Convocation judiciaire ou administrative et pour se rendre dans un service public ;"
+          "label": "Convocation <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./convoc.f799beee.svg\" alt\"Logo convocation\">"
         },
         {
           "code": "missions",
-          "label": " Participation à des missions d'intérêt général sur demande de l'autorité administrative ;"
+          "label": "Mission d'intérêt général <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./mission.b7068344.svg\" alt\"Logo mission\">"
         },
         {
           "code": "enfants",
-          "label": "Déplacement pour chercher les enfants à l’école et à l’occasion de leurs activités périscolaires."
+          "label": "Enfants <img style=\"width: 25px; margin-bottom: 5px; margin-left: 2px\" src=\"./enfants.71b6854e.svg\" alt\"Logo enfant\">"
         }
       ]
     }
