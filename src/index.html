@@ -137,9 +137,8 @@
 
     <script src="./js/main.js"></script>
     <script>
-        const date = new Date();
-        const test = date.getHours() + ':' + date.getMinutes();
-        document.querySelector('input#field-heuresortie').value = test;
+        const dateActuelle = new Date();
+        document.querySelector('input#field-heuresortie').value = dateActuelle.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
     </script>
 </body>
 

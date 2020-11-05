@@ -199,12 +199,15 @@ export function prepareInputs (formInputs, reasonInputs, reasonFieldset, reasonA
     const pdfBlob = await generatePdf(getProfile(formInputs), reasons, pdfBase)
 
     const creationInstant = new Date()
-    const creationDate = creationInstant.toLocaleDateString('fr-CA')
+    const creationDate = creationInstant
+      .toLocaleDateString('fr-FR')
+      .replace('/', '.')
+      .replace('/', '.')
     const creationHour = creationInstant
       .toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })
-      .replace(':', '-')
+      .replace(':', 'h')
 
-    downloadBlob(pdfBlob, `attestation-${creationDate}_${creationHour}.pdf`)
+    downloadBlob(pdfBlob, `Attestation du ${creationDate} à ${creationHour}.pdf`)
     showSnackbar(snackbar, 6000)
   })
 }
